@@ -1,7 +1,7 @@
 # 📸 Like Me — Servidor Backend
 
-Proyecto desarrollado con **Node.js**, **Express** y **PostgreSQL** para gestionar publicaciones ("posts") en una aplicación tipo red social.
-Forma parte del desafío **Like Me (Parte I)**.
+Proyecto desarrollado con **Node.js**, **Express** y **PostgreSQL** para gestionar publicaciones en una aplicación tipo red social.
+Forma parte del desafío **Like Me** (Parte I y II).
 
 ---
 
