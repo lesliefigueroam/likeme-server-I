@@ -1,4 +1,4 @@
-# 📸 Like Me (Parte I) — Servidor Backend
+# 📸 Like Me — Servidor Backend
 
 Proyecto desarrollado con **Node.js**, **Express** y **PostgreSQL** para gestionar publicaciones ("posts") en una aplicación tipo red social.
 Forma parte del desafío **Like Me (Parte I)**.
@@ -89,10 +89,12 @@ npm run dev
 
 ## 🌐 Endpoints disponibles
 
-| Método   | Ruta     | Descripción             |
-| -------- | -------- | ----------------------- |
-| **GET**  | `/posts` | Obtiene todos los posts |
-| **POST** | `/posts` | Crea un nuevo post      |
+| Método     | Ruta              | Descripción                              |
+| ---------- | ----------------- | ---------------------------------------- |
+| **GET**    | `/posts`          | Obtiene todos los posts                  |
+| **POST**   | `/posts`          | Crea un nuevo post                       |
+| **PUT**    | `/posts/like/:id` | Incrementa el contador de likes del post |
+| **DELETE** | `/posts/:id`      | Elimina un post                          |
 
 ---
 
@@ -142,4 +144,4 @@ Respuesta esperada:
 ## 💬 Créditos
 
 Desarrollado por **Leslie Figueroa**
-Desafío **“Like Me (Parte I)” — Desafío Latam**
+Desafío **“Like Me” — Desafío Latam**
